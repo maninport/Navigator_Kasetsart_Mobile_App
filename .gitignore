@@ -1,0 +1,208 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# --- General / OS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- Node.js / JavaScript / React ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+web-build/
+
+# --- React Native Specific ---
+# General
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Android
+.gradle
+local.properties
+android/app/build/
+android/app/libs
+android/keystores/debug.keystore
+android/.idea
+*.apk
+*.aar
+*.dex
+
+# iOS
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/.xccheckout
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/*.pbxuser
+!ios/default.pbxuser
+ios/*.mode1v3
+!ios/default.mode1v3
+ios/*.mode2v3
+!ios/default.mode2v3
+ios/*.perspectivev3
+!ios/default.perspectivev3
+
+# React Native Bundles (Generated)
+*.jsbundle
+index.android.bundle
+index.ios.bundle
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Dependencies ---
+node_modules/
+jspm_packages/
+
+# --- Metro / Bundler ---
+.bundle/
+vendor/bundle
+.ruby-version
+.ruby-gemset
+.tool-versions
+
+# --- Build Outputs ---
+# Android
+android/app/build/
+android/.gradle/
+android/app/*.iml
+android/local.properties
+android/keyboxes/
+*.keystore
+!debug.keystore
+
+# iOS
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/.xccheckout
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/.xcworkspace/xcshareddata/SwiftPM/
+ios/*.xcworkspace/xcshareddata/SwiftPM/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.moved-aside
+DerivedData/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- VS Code ---
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+
+# --- Testing ---
+coverage/
+__snapshots__/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
